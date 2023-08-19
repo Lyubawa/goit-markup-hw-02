@@ -28,13 +28,20 @@ body{
 .logotype-link:focus{
     color: #404BBF;
 }
-.logotype-list-item{
+.logotype-list-link{
           font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
         text-align: left;
         color: #2E2F42;
+        }
+.logotype-list-link:hover,
+.logotype-list-link:focus{
+    color: #404bbf;
+}
+.page-address{
+font-style: normal;
 }
 .address-list-link{
             font-size: 16px;
@@ -42,8 +49,8 @@ body{
         line-height: 1.5;
         letter-spacing: 0.02em;
         text-align: left;
-        font-style: normal;     
-      }
+        color: #434455;
+              }
 .address-list-link:hover,
 .address-list-link:focus{
     color: #404BBF;
@@ -90,7 +97,7 @@ body{
 .team{
     background-color: #F4F4FD;
 }
-.team-list{
+.team-list-item{
     background-color: #FFFFFF;
 }
 .main-title-team{
