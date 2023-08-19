@@ -18,14 +18,14 @@ body{
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-align: left;
-        color: #2E2F42;
-        text-transform: uppercase;
+        color: #4D5AE5;
+     text-transform: uppercase;
 }
 .accent{
-    color: #4D5AE5;
+    color: #2E2F42;
 }
-.logotype-list-link:hover,
-.logotype-list-link:focus{
+.logotype-link:hover,
+.logotype-link:focus{
     color: #404BBF;
 }
 .logotype-list-item{
@@ -43,8 +43,7 @@ body{
         letter-spacing: 0.02em;
         text-align: left;
         font-style: normal;     
-        color: #434455;
-}
+      }
 .address-list-link:hover,
 .address-list-link:focus{
     color: #404BBF;
@@ -91,6 +90,9 @@ body{
 .team{
     background-color: #F4F4FD;
 }
+.team-list{
+    background-color: #FFFFFF;
+}
 .main-title-team{
            font-size: 36px;
         font-weight: 700;
@@ -98,6 +100,7 @@ body{
         letter-spacing: 0.02em;
         text-align: center;
         color: #2E2F42;
+        text-transform: capitalize;
 }
 .team-list-title{
           font-size: 20px;
@@ -121,7 +124,9 @@ body{
         letter-spacing: 0.02em;
         text-align: center;
         color: #2E2F42;
-}
+        text-transform: capitalize;
+        }
+
 .portfolio-list-title{
           font-size: 20px;
         font-weight: 500;
@@ -147,7 +152,7 @@ body{
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-align: left;
-        color: #F4F4FD;
+        color: #4D5AE5;
         text-transform: uppercase;
 }
 .footer-text{
@@ -157,4 +162,7 @@ body{
         letter-spacing: 0.02em;
         text-align: left;
         color: #F4F4FD;
+}
+.accent-footer{
+    color: #F4F4FD;
 }
